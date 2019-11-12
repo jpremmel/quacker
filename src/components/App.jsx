@@ -10,6 +10,7 @@ function App() {
       <style global jsx>{`
         body {
           font-family: sans-serif;
+          background-color: #f5f5c6;
         }
       `}</style>
       <Header/>

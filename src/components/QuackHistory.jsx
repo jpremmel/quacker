@@ -20,9 +20,14 @@ var masterQuackHistory = [
 ];
 
 function QuackHistory() {
+  var quackHistoryStyle = {
+    borderColor: '#27253d',
+    padding: '20px'
+  };
   return (
-    <div>
-      <hr/>
+    <div 
+      style={quackHistoryStyle}
+      className="card">
       {masterQuackHistory.map((quack, index) =>
         <Quack content={quack.content}
           key={index}/>
