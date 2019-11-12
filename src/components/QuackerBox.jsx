@@ -9,8 +9,7 @@ function QuackerBox() {
     color: '#f5f5c6',
   };
   var quackerInputStyle = {
-    width: '60%',
-    margin: '15px',
+    marginTop: '15px',
     borderColor: '#27253d'
   };
   return (

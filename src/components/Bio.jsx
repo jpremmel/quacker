@@ -2,7 +2,6 @@ import React from 'react';
 
 function Bio() {
   var bioStyle = {
-    width: '30%',
     padding: '10',
     borderColor: '#27253d'
   };

@@ -1,8 +1,8 @@
 import React from 'react';
-import QuackHistory from './QuackHistory';
-import QuackerBox from './QuackerBox';
+import ColumnQuacks from './ColumnQuacks';
+import ColumnBio from './ColumnBio';
 import Header from './Header';
-import Bio from './Bio';
+
 
 function App() {
   return(
@@ -14,9 +14,14 @@ function App() {
         }
       `}</style>
       <Header/>
-      <Bio/>
-      <QuackerBox/>
-      <QuackHistory/> 
+      <div className="row">
+        <div className="col-md-4">
+          <ColumnBio/> 
+        </div>
+        <div className="col-md-8">
+          <ColumnQuacks/> 
+        </div>
+      </div>
     </div>
   );
 }
