@@ -7,10 +7,15 @@ import Bio from './Bio';
 function App() {
   return(
     <div>
+      <style global jsx>{`
+        body {
+          font-family: sans-serif;
+        }
+      `}</style>
       <Header/>
       <Bio/>
       <QuackerBox/>
-      <QuackHistory/>
+      <QuackHistory/> 
     </div>
   );
 }
