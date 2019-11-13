@@ -1,7 +1,8 @@
 import React from 'react';
-import ColumnQuacks from './ColumnQuacks';
-import ColumnBio from './ColumnBio';
+import Profile from './Profile';
+import Homepage from './Homepage';
 import Header from './Header';
+import { Switch, Route } from 'react-router-dom';
 
 
 function App() {
@@ -14,14 +15,10 @@ function App() {
         }
       `}</style>
       <Header/>
-      <div className="row">
-        <div className="col-md-4">
-          <ColumnBio/> 
-        </div>
-        <div className="col-md-8">
-          <ColumnQuacks/> 
-        </div>
-      </div>
+      <Switch>
+        <Route exact path='/' component={Homepage} />
+        <Route path='/profile' component={Profile} />
+      </Switch>
     </div>
   );
 }

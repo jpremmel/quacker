@@ -23,7 +23,7 @@ function Bio() {
         style={imgStyle}
         src={duck}/>
       <br/>
-      <p>This is my bio</p>
+      <p>I am the original quacker. Hear me quack.</p>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Header() {
   var headerStyle = {
@@ -8,7 +9,10 @@ function Header() {
     marginBottom: '25px'
   };
   return (
-    <h1 style={headerStyle}>Quacker</h1>
+    <div>
+      <h1 style={headerStyle}>Quacker</h1>
+      <Link to="/">See All Quackers</Link> | <Link to="/profile">See My Profile</Link>
+    </div>
   );
 }
 

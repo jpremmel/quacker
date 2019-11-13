@@ -16,7 +16,13 @@ var masterQuackHistory = [
   },
   {
     content: 'I can see ur butt quack hee hee im mature'
-  }
+  },
+  {
+    content: 'Not your quack Jack!'
+  },
+  {
+    content: 'Quack it upppppp'
+  },
 ];
 
 function QuackHistory() {
