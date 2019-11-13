@@ -14,47 +14,47 @@ var masterQuackerList = [
   {
     name: 'Elliott',
     quackerBio: 'Hello all you quacks... come quack with me!',
-    img: '../assets/images/quacker1.jpg'
+    img: quacker1
   },
   {
     name: 'Stan',
     quackerBio: 'I enjoy long walks on the beach and some occassional breadcrumbs',
-    img: '../assets/images/quacker2.jpg'
+    img: quacker2
   },
   {
     name: 'Sterling',
     quackerBio: 'Whats there to quack about?',
-    img: '../assets/images/quacker3.jpg'
+    img: quacker3
   },
   {
     name: 'Tyler',
     quackerBio: 'Chillin with my quackers',
-    img: '../assets/images/quacker4.jpg'
+    img: quacker4
   },
   {
     name: 'Martha',
     quackerBio: 'Dont quack back!',
-    img: '../assets/images/quacker5.jpg'
+    img: quacker5
   },
   {
     name: 'Mike',
     quackerBio: 'Quackin on the fly',
-    img: '../assets/images/quacker6.jpg'
+    img: quacker6
   },
   {
     name: 'Joel',
     quackerBio: 'Update to date with all the newest quacks',
-    img: '../assets/images/quacker7.jpg'
+    img: quacker7
   },
   {
     name: 'Chris',
     quackerBio: 'Quackin with my homies',
-    img: '../assets/images/quacker8.jpg'
+    img: quacker8
   },
   {
     name: 'Stephaan',
     quackerBio: 'Quack and Chill?',
-    img: '../assets/images/quacker9.jpg'
+    img: quacker9
   }
 ];
 
@@ -71,7 +71,7 @@ function QuackerList() {
         <Quacker 
           name={quacker.name}
           quackerBio={quacker.quackerBio}
-          // img={quacker.img}
+          img={quacker.img}
           key={index} />
       )}
     </div>

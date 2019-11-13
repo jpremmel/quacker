@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import React from 'react';
 import PropTypes from 'prop-types';
 import quacker1 from '../assets/images/quacker1.jpg';
@@ -23,13 +24,13 @@ function Quacker(props) {
     marginLeft: 'auto',
     marginRight: 'auto',
     borderRadius: '5px'
-  }
+  };
   return (
     <div
       style = { quackerBioStyle }
       className = "card" >
       <h3>{props.name}</h3>
-      <img style={quackerImgStyle} src={quacker1} />
+      <img style={quackerImgStyle} src={`${props.img}`} />
       <br />
       <p>{props.quackerBio}</p>
     </div>
@@ -40,6 +41,6 @@ Quacker.propTypes = {
   name: PropTypes.string.isRequired,
   quackerBio: PropTypes.string.isRequired,
   img: PropTypes.string
-}
+};
 
 export default Quacker;
