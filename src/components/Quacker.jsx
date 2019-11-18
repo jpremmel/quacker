@@ -18,12 +18,12 @@ function Quacker(props) {
     borderColor: '#27253d',
   };
   var quackerImgStyle = {
-    width: '100%',
-    height: 'auto',
+    width: '200px',
+    height: '200px',
     display: 'block',
     marginLeft: 'auto',
     marginRight: 'auto',
-    borderRadius: '5px'
+    borderRadius: '50%'
   };
   return (
     <div
