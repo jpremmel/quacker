@@ -14,7 +14,7 @@ function Bio() {
     marginLeft: 'auto',
     marginRight: 'auto',
     borderRadius: '5px'
-  }
+  };
   return (
     <div
       style={bioStyle}
